@@ -1,26 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import './Contact'
+import Contact from './Contact';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+    return (
+        <div className="Contact">
+        <Contact nom={nom} url={url} online={online}></Contact>
+        </div>
+    );
 }
+
+
+const nom="toto"
+const url="https://placekitten.com/g/64/64"
+const online="true"
 
 export default App;
