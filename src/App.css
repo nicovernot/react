@@ -37,10 +37,15 @@
   margin-right: 6px;
 }
 
-.Contact .status .status-online {
+.status-online {
   background: #aed581;
 }
 
-.Contact .status .status-offline {
+ .status-offline {
   background: #f4511e;
+}
+
+ul li {
+  background: #cce5ff;
+  margin: 5px;
 }
